@@ -1,0 +1,50 @@
+header {
+    background-color: rgb(235, 182, 8);
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#paragraph1, #paragraph2 {
+    background-color: rgb(216, 132, 22);
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px;
+}
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:rgb(245, 226, 200);
+}
+
+img {
+    width: 400px;
+    height: 300px;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: solid;
+    text-align: center;
+    padding: 10px;
+}
+
+th {
+    background-color: rgb(238, 207, 167);
+}
+
+#submit {
+    background-color: #e9a318;
+    border: solid;
+    color: rgba(255, 255, 255, 0.932);
+    padding: 5px 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}

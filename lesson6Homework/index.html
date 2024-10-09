@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <title>იმერეთი</title>
+        <META HTTP-EQUIV="Content-Type" Content="text/html; Charset=utf-8">
+        <link rel="stylesheet" href="style/style.css"/>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap'); 
+            header {
+                font-family: "Oswald", sans-serif;
+            }
+
+            img:hover {
+                padding: 20px;
+                margin-top: 20px;
+            }
+
+            .tab:hover {
+                color: rgb(218, 170, 82);
+                background-color: rgb(138, 132, 123);
+                }
+
+            footer {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                padding: 10px;
+            }
+
+            input:focus {
+                background-color: rgb(207, 189, 23);
+            } 
+            input:hover {
+                background-color: rgb(220, 163, 49);
+            }
+
+            .submit:active {
+                background-color: rgb(123, 222, 18);
+                font-size: 150%;
+            }
+</style>
+            </style>
+      </head>
+    <body>
+        <header>
+            <h1>იმერეთი</h1>
+        </header>
+        <main>
+            <p id="paragraph1">დასავლეთ საქართველოს ერთ-ერთი ისტორიულ-გეოგრაფიულ მხარე.
+                იყოფა ორ ნაწილად: ქვემო და ზემო იმერეთად. იმერეთის ტერიტორიაზე 
+                აღმოჩენილი არქეოლოგიური ძეგლები ადასტურებს, 
+                რომ ამ მხარეში ადამიანს ცხოვრება, ჯერ კიდევ, 
+                ქვედა პალეოლითის ხანაში დაუწყია. 
+            </p>
+            <div class="images">
+                <img src="./images/image1.png" alt="image1">
+                <img src="./images/image2.jpg" alt="image2">
+                <img src="./images/image3.jpg" alt="image3">
+            </div>
+            <br><br>
+            <p id="paragraph2"> იმერეთის მხარე ფლორითა და ფაუნით მდიდარია. 
+                მის ტერიტორიაზე ტყის მასივებს 250 000 ჰა უჭირავს, 
+                რომელიც ძირითადად მთაგორიან ლანდშაფტზეა განფენილი. 
+                მაქსიმალური სიმაღლე ზღვის დონიდან 2850 მეტრია. 
+                ფოთლოვან ტყეებთან ერთად აქ გვხვდება წიწვოვანი 
+                და შერეული ტყეები, კავკასიისათვის დამახასიათებელი 
+                ფაუნის წარმომადგენლები — კავკასიური დათვი, ტახი, 
+                ირემი, შველი, მელა, მგელი და ტურა,
+                ფართოდაა წარმოდგენილი ფრინველთა სამყარო.</p>
+            <div>
+                <table>
+                    <tr>
+                        <th>#</th>
+                        <th>ქალაქი</th>
+                        <th>სატელეფონო კოდი</th>
+                        <th>მოსახლეობის რაოდენობა</th>
+                      </tr>
+                    <tr class="tab">
+                        <td>1</td>
+                        <td>ქუთაისი</td>
+                        <td>+995 431</td>
+                        <td>130 400 კაცი (2023)</td>
+                      </tr>
+                    <tr class="tab">
+                        <td>2</td>
+                        <td>ზესტაფონი</td>
+                        <td>+995 492</td>
+                        <td>20 814 კაცი (2014)</td>
+                      </tr>
+                    <tr class="tab">
+                        <td>3</td>
+                        <td>ჭიათურა</td>
+                        <td>+995 479</td>
+                        <td>12 803 კაცი (2014)</td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+        <footer>
+            <a>Please rate my page how much you like it?</a>
+            <form action="/action_page.php">
+                <label for="quantity">Quantity (between 1 and 5):</label>
+                <input type="number" id="quantity" name="quantity" min="1" max="5">
+                <input type="submit" id="submit" placeholder="Submit">
+              </form>
+        </footer>
+      </body>
+</html>
