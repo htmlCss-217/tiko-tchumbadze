@@ -1,0 +1,118 @@
+.icon-bar {
+    position: fixed;
+    top: 50%;
+  }
+  
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+  }
+  
+.icon-bar a:hover {
+    background-color: #121010;
+  }
+  
+.facebook {
+    background: #25417d;
+  }
+  
+.twitter {
+    background: #3c8dcb;
+  }
+  
+.instagram {
+    background: #92072fe0;
+  }
+  
+.linkedin {
+    background: #0171a4;
+  }
+  
+.github {
+    background: #171616;
+  }
+.youtube {
+    background: #cc0a0a;
+  }
+  
+.information {
+    margin-left: 70px;
+  }
+
+table {
+    display: flex;
+    justify-content: center;
+    border-collapse: collapse;
+}
+td, th {
+    border: solid;
+    text-align: center;
+    padding: 10px;
+}
+
+th {
+    background-color: rgb(160, 168, 213);
+}
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+span {
+    color: #ee1414;
+}
+#comment {
+    display: flex;
+    border: solid;
+    border-color: #a41212;
+    border-width: 10px;
+    padding: 15px;
+    width: 30%;
+}
+#addacomment {
+    display: inline-block;
+    padding-left: 30px;
+}
+#text {
+    width: 200px;
+    height: 100px;
+}
+#danger {
+    background-color: rgb(49, 226, 9);
+    border-radius: 5px;
+    padding: 5px;
+    border: 0;
+    color: aliceblue;
+}
+
+#send {
+    background-color: rgb(226, 9, 9);
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 0;
+    color: aliceblue;
+}
+#submit {
+    display: flex;
+    justify-content: space-between;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #121010;
+    color: antiquewhite;
+    text-align: center;
+    margin-left: 70px;
+}
+#subscribe {
+    border: solid;
+    border-color: aliceblue;
+    background-color: #121010;
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 10px;
+}
