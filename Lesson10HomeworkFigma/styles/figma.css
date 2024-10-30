@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+.logoWrapper {
+    display: flex;
+    margin-left: 96px;
+    gap: 5px;
+
+}
+
+#logoText {
+    color: #DEDEDE;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: "Manrope", serif;
+}
+
+header {
+    height: 80px;
+    background-color: #323232;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body {
+    background-color: #202020;
+    margin: 10px 0;
+}
+
+nav a {
+    font-family: "Manrope", serif;
+    color: #DEDEDE;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 56px;
+    margin-right: 109px;
+}
+
+#welcomeTxt {
+    font-size: 64px;
+    color: #DEDEDE;
+    font-weight: bold;
+    font-family: "Manrope", serif;
+    width: 600px;
+}
+
+#anotherTxt {
+    font-family: "Manrope", serif;
+    font-weight: 450;
+    color: #959595;
+    font-size: 24px;
+    width: 490px;
+    position: relative;
+    bottom: 50px;
+}
+
+main {
+    margin-left: 96px;
+    margin-right: 96px;
+}
+
+.mainTextWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+#button1 {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 16px;
+    background-color: #9D9D9D;
+    width: 400px;
+    justify-content: center;
+    height: 50px;
+    border-radius: 5px;
+}
+
+#button1 p {
+    font-size: 18px;
+    font-weight: 450;
+    color: white;
+    font-family: "Manrope", serif;
+}
+
+.mainInfoWrapper { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rightImage {
+    position: relative;
+    right: 106px;
+    top: 25px;
+}
+
+.featuredwork p {
+    color: #DEDEDE;
+    font-size: 16px;
+    font-family: "Manrope", serif;
+    font-weight: bold;
+}
+.featuredwork {
+    display: flex;
+    gap: 16px;
+    text-decoration: none;
+    margin-top: 163px;
+}
+.img1-4 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    gap: 24px;
+}
+#img1-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#img3-4 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+#img3 {
+    margin-top: 138px;
+}
+#img2, #img4 {
+    margin-top: 24px;
+}
+.img1-4 img {
+    width: 740px;
+    height: 888px;
+    border-radius: 4px;
+
+}
+#visualexplorations, #personalprojects, #contactme {
+    margin-top: 240px;
+    color: rgba(222, 222, 222, 1);
+    font-family: "Manrope", serif;
+    font-size: 36px;
+    text-align: center;
+}
+.img5-7 {
+    margin-top: 65px;
+}
+.img5-7, .img8-10 {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    border-radius: 4px;
+} 
+.img8-10 {
+    margin-top: 24px;
+}
+.img5-7 img {
+    width: 485px;
+}
+
+.img8-10 img {
+    width: 485px;
+}
+
+.img11-13 {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    border-radius: 4px;
+    margin-top: 66px;
+}
+.img11-13 img {
+    width: 485px;
+}
+
+#freelancework {
+    display: flex;
+    font-family: "Manrope", serif;
+    font-weight: 600;
+    color: #959595;
+    font-size: 24px;
+    text-align: center;
+    width: 500px;
+    margin-left: 500px;
+}
+
+#button2 {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 16px;
+    background-color: #9D9D9D;
+    width: 430px;
+    justify-content: center;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 46px;
+    margin-left: 532px;
+}
+
+#button2 p {
+    font-size: 18px;
+    font-weight: 450;
+    color: white;
+    font-family: "Manrope", serif;
+}
+#rectangle {
+    width: 100%;
+    height: 1px;
+    color: #a7a2a2;
+    margin-top: 119px;
+}
+.footerinfo {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 96px;
+    margin-right: 97px;
+    margin-top: 48px;
+    margin-bottom: 36px;
+}
+
+.icon-bar {
+    display: flex;
+    gap: 43px;
+}
+  
+.icon-bar a {
+    color: #959595;
+    font-size: 20px;
+}
+
+.copyright {
+    font-family: "Manrope", serif;
+    font-size: 16px;
+    color: #959595;
+}
