@@ -1,0 +1,122 @@
+body {
+    background-color: rgb(236, 239, 229);
+    margin: 0;
+}
+#headerinfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sweetnovember {
+    font-family: item-regular;
+    color: var(--textcolor);
+    text-align: center;
+    font-size: 30px;
+    padding-left: 20px;
+}
+
+.sweetnovember::first-letter {
+    font-size: 50px;
+    color: rgb(123, 104, 9)
+}
+:root {
+    --textcolor: rgb(198, 173, 48);
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 50px;
+    background-color: rgb(74, 77, 81);
+    height: 80px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+nav:hover {
+    background-color: rgb(94, 90, 84);
+}
+
+nav a {
+    color: var(--textcolor);
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+a:hover {
+    color: #c76a14;
+}
+
+article h2 {
+    text-align: center;
+    color: var(--textcolor);
+}
+.castsinfo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cast1 img, .cast2 img, .cast3 img {
+    height: 500px;
+    width: 400px;
+    border-radius: 15px;
+    transition: 1s ease-in-out;
+}
+
+.cast1 img:hover, .cast2 img:hover, .cast3 img:hover {
+    transform: scale(1.1);
+}
+
+.cast1, .cast2, .cast3 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+h4 {
+    text-align: center;
+    transition: 1s ease-in-out;
+}
+
+.icon-bar a {
+    padding: 15px;
+    color: white;
+    font-size: 40px;
+}
+  
+.icon-bar a:hover {
+    background-color: var(--textcolor);
+}
+
+.facebook {
+    background: #25417d;
+}
+  
+.twitter {
+    background: #3c8dcb;
+}
+  
+.instagram {
+    background: #92072fe0;
+}
+  
+.linkedin {
+    background: #0171a4;
+}
+
+.youtube {
+    background: #cc0a0a;
+}
+.footerinfo p {
+    text-align: center;
+    font-size: 30px;
+    color: #293b5f;
+}
+.footerinfo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #86842c;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
