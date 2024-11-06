@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+}
+header {
+    background-color: #26335D;
+}
+
+.headercontainer {
+    display: flex;
+    justify-content: space-between;
+    height: 91px;
+}
+
+.leftcontainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+#medicalbetter {
+    color: #FFFFFF;
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    bottom: 29px;
+    margin-left: 195px;
+}
+.headerinfo {
+    display: flex;
+    justify-content: space-between;
+    gap: 21px;
+    margin-top: 30px;
+    margin-left: 55px;
+    text-align: center;
+}
+.headerinfo a, .rightcontainer p {
+    color: #FFFFFF;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    height: 24px;
+    font-weight: 700;
+}
+
+.rightcontainer {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Montserrat", sans-serif;
+    color: #FFFFFF;
+    gap: 45px;
+    margin-top: 19px;
+    margin-bottom: 24px;
+    margin-left: 240px;
+}
+#button1 {
+    background-color: #1BC768;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding: 10px 25px 15px 25px;
+    gap: 15px;
+    border-radius: 5px;
+    margin-right: 279PX;
+}
+
+.headercontainer2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 58px;
+}
+.forbetterfuture {
+    display: flex;
+    flex-direction: column;
+    margin-top: 148px;
+    margin-left: 132px;
+    margin-bottom: 148px;;
+}
+.forbetterfuture h5 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #1BC768;
+}
+.forbetterfuture h1 {
+    font-family: "Montserrat", sans-serif;
+    color: #FFFFFF;
+    font-size: 58px;
+    text-align: left;
+    width: 542px;
+    height: 160px;   
+}
+
+.forbetterfuture p {
+    font-family: "Montserrat", sans-serif;
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: left;
+    width: 406px;
+    height: 60px;
+}
+
+.button2-3 {
+    display: flex;
+    gap: 10px;
+    justify-content: left;
+}
+
+#button2 {
+    padding: 15px 40px 15px 40px;
+    gap: 10px;
+    border-radius: 5px;
+    background: #1BC768;
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+}
+
+#button3 {
+    padding: 15px 40px 15px 40px;
+    gap: 10px;
+    border-radius: 5px;
+    border: 1px 0px 0px 0px;
+    font-family: "Montserrat", sans-serif;
+    color: #1BC768;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: center;
+    background: #26335D;
+}
+
+.img1-2 {
+    display: flex;
+    position: relative;
+    margin-top: 83px;
+    margin-right: 27.83px;
+    width: 800px;
+    height: 516.8px;
+}
+#img1 {
+    width: 620px;
+    height: 516.8px;
+    border-radius: 34.38px;
+}
+
+.maincontainer1 {
+    height: 768px;
+    gap: 10px;
+}
+.maincontent {
+    width: 691px;
+    height: 134px;
+    gap: 10px;
+    margin-left: 195px;
+    margin-top: 112px;
+}
+
+#practiceadvice {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: #1BC768;
+    font-weight: 700;
+}
+.maincontent h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 37px;
+    font-weight: 700;
+    color: #252B42;
+
+}
+#paragraph {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #737373;
+}
+
+.rowcontainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    width: 1,049px;
+    height: 340px;
+    gap: 30px;
+    margin-right: 196PX;
+}
+
+.rowcontainer1 {
+    width: 238px;
+    height: 292px;
+    gap: 20px;
+    margin-left: 195px;
+    margin-bottom: 160px;
+    box-shadow: 0px 13px 19px 0px #00000012;
+}
+
+.rowcontainer1 img, .rowcontainer2 img, .rowcontainer3 img, .rowcontainer4 img  {
+    margin-top: 35px;
+}
+
+.rowcontainer1 p, .rowcontainer2 p, .rowcontainer4 p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;    
+    font-weight: 700;
+    padding-right: 58px;
+}
+#paragraph1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #737373;
+}
+.rowcontainer2, .rowcontainer4 {
+    width: 238px;
+    height: 292px;
+    margin-top: 48PX;
+    box-shadow: 0px 13px 19px 0px #00000012;
+
+}
+.rowcontainer3 {
+    background: #1BC768;
+    width: 238px;
+    height: 292px;
+    gap: 20px;
+}
+
+.rowcontainer3 p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;    
+    font-weight: 700;
+    padding-right: 58px;
+    color: #FFFFFF;
+
+}
+
+#paragraph2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.rowcontainer1 img, .rowcontainer1 p, 
+.rowcontainer2 img, .rowcontainer2 p, 
+.rowcontainer3 img, .rowcontainer3 p, 
+.rowcontainer4 img, .rowcontainer4 p {
+    margin-left: 40px;
+}
+
+.line {
+    width: 50px;
+    height: 2px;
+    background: #E74040;
+    margin-left: 40px;
+}
+
+.line1 {
+    width: 50px;
+    height: 2px;
+    background: #FFFFFF;
+    margin-left: 40px;
+}
+
+.maincontainer2 {
+    height: 1096px;
+}
+.maincontent2 {
+    width: 691px;
+    height: 134px;
+    gap: 10px;
+    margin-left: 195px;
+    margin-top: 112px;
+}
+
+#practiceadvice2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: #1BC768;
+    font-weight: 700;
+}
+.maincontent2 h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #252B42;
+    font-size: 40px;
+    line-height: 50px;
+}
+#paragraph3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #737373;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+
+}
+
+.ourdoctors {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 112px;
+    margin-left: 195.5px;
+}
+.doctor1foto {
+    position: relative;
+    width: 238px;
+    height: 300px;
+}
+
+.doctor1foto p {
+    width: 51px;
+    height: 25px;
+    top: 5px;
+    left: 20px;
+    border-radius: 3px;
+    background: #E74040;
+    color: #FFFFFF;
+    position: absolute;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+
+}
+
+.icons {
+    width: 140px;
+    height: 40px;
+    top: 236px;
+    left: 49px;
+    gap: 10px;
+    position: absolute;
+}
+
+.doctor1info {
+    width: 232px;
+    height: 326px;
+    padding: 25px;
+    gap: 10px;
+}
+.rating {
+    display: flex;
+    width: 182px;
+    height: 26px;
+    justify-content: space-between;
+}
+
+.rating p {
+    color: #1BC768;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 10;
+}
+.rating img {
+    width: 50px;
+    height: 26px;
+    padding: 5px;
+    gap: 5px;
+}
+
+#sit {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #252B42;
+    width: 131px;
+    height: 48px;
+}
+#wefocus {
+    width: 182px;
+    height: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #737373;
+}
+
+.sales15 {
+    display: flex;
+    width: 83px;
+    height: 24px;
+    gap: 10px;
+    color: #737373;
+}
+.sales15 img {
+    width: 16px;
+    height: 16px;
+    top: 1px;
+    left: 4.5px;
+}
+.sales15 p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 1px;
+}
+#dolar {
+    width: 108px;
+    height: 34px;
+    padding: 5px 3px 5px 3px;
+    gap: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.doctor1info button {
+    width: 141.14px;
+    height: 44px;
+    padding: 10px 20px 10px 20px;
+    gap: 10px;
+    border-radius: 37px;
+    border: 1px solid #1BC768;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #1BC768;
+    background-color:#FFFFFF;
+
+}
