@@ -1,0 +1,125 @@
+main p {
+    font-size: 20px;
+    margin-top: 0;
+    width: 550px;
+    padding: 20px;
+    color: #25417d;
+}
+
+
+.iconslide {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.icon-bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 40px;
+    width: 55px;
+    margin-left: 30px;
+}
+
+.icon-bar a {
+    text-align: center;
+    padding: 15px;
+    color: white;
+    font-size: 25px;
+    -webkit-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s;
+}
+
+.icon-bar a:hover {
+    -webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+            transform: scale(1.5);
+    border-radius: 50%;
+}
+
+.icon-bar .facebook {
+    background: #25417d;
+}
+  
+.icon-bar .twitter {
+    background: #3c8dcb;
+}
+  
+.icon-bar .instagram {
+    background: #91052ce0;
+}
+  
+.icon-bar .linkedin {
+    background: #0285c2;
+}
+
+.icon-bar .youtube {
+    background: #b40505;
+}
+
+.icon-bar .iconslide div h3 {
+    color: #25417d;
+}
+
+.imgcontainer {
+    height: 500px;
+    width: 350px;
+    -webkit-animation-name: myImg;
+            animation-name: myImg;
+    -webkit-animation-duration: 6s;
+            animation-duration: 6s;    
+    -webkit-animation-iteration-count: infinite;    
+            animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    margin-right: 50px;
+    margin-bottom: 5px;
+}
+@-webkit-keyframes myImg {
+    0% {
+        background-image: url(/images/slide1.jpg);
+        background-size: 350px 500px;
+    }
+
+    30% {
+        background-image: url(/images/slide2.jpg);
+        background-size: 350px 500px;
+    }
+
+    60% {
+        background-image: url(/images/slide3.jpg);
+        background-size: 350px 500px;
+    }
+    100% {
+        background-image: url(/images/slide4.jpg);
+        background-size: 350px 500px;
+    }
+}
+@keyframes myImg {
+    0% {
+        background-image: url(/images/slide1.jpg);
+        background-size: 350px 500px;
+    }
+
+    30% {
+        background-image: url(/images/slide2.jpg);
+        background-size: 350px 500px;
+    }
+
+    60% {
+        background-image: url(/images/slide3.jpg);
+        background-size: 350px 500px;
+    }
+    100% {
+        background-image: url(/images/slide4.jpg);
+        background-size: 350px 500px;
+    }
+}
